@@ -1,0 +1,62 @@
+<main class="uno">
+    <div class="chatList">
+        <div class="head">
+            <a href="#">
+                Menu
+            </a>
+            <h1>Telegram</h1>
+            <div class="search">
+                Search
+            </div>
+        </div>
+        <ul>
+            <li *ngFor = 'let item of icontacts'>
+                <a [routerLink]="['/Chat', item.id]">
+                    <div class="avatar">
+                        <img [src]="item.avatar" alt="">
+                    </div>
+                    <div class="name">
+                        {{item.name}}
+                    </div>
+                    <div class="lastMsg">
+                        Hi, got a minute? Just 1 frigging minute
+                    </div>
+                    <div class="hour">
+                        {{item.hour}}
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="chatMessage">
+        <div class="head">
+            <a href="#">
+                Back
+            </a>
+            <div>
+                <div class="avatar">
+                    <img src="./assets/images/avatars/one.jpg" alt="">
+                </div>
+                <div class="name">
+                    Lucy Bot
+                </div>
+                <div class="lastMsg">
+                    <p>last seen <span>??</span></p>
+                </div>
+            </div>
+            <div class="search">
+                Options
+            </div>
+        </div>
+        <div class="body">
+            <router-outlet></router-outlet>
+            <ul>
+                <li *ngFor = 'let item of imessage'>
+                    <div class="message">
+                       {{item.message}}
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,91 @@
+.uno * {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+.uno div,
+.uno h1,
+.uno h2,
+.uno h3,
+.uno main,
+.uno li {
+  display: block;
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+.uno .head {
+    background-color: #5682a3;
+    color: white;
+}
+
+.uno .chatList {
+    width: 30%;
+    border-right: 1px solid #cfcfdf;
+    background-color: white;
+    min-height: 1020px;
+}
+
+.uno .chatList a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.uno .chatList li {
+    padding:15px;
+    border-bottom: 1px solid #efefff;
+    background-color: white;
+}
+
+.uno .avatar {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.uno .avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.uno .name {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5em;
+    padding-left: 65px;
+    color: black;
+}
+
+.uno .lastMsg {
+    font-size: 16px;
+    color: #aaa;
+    padding-left: 65px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5em;
+}
+
+.uno .hour {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: auto;
+    color: #aaa;
+}
+
+.uno .chatMessage {
+    width: 70%;
+}
+
+.uno .chatMessage .body {
+    background: transparent url(./assets/images/back.jpg) repeat center;
+    min-height: 1020px;
+}
