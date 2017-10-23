@@ -9,24 +9,24 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
 
 import { iContacts } from './services/contacts.interface';
 import { contactsService } from './services/contacts.service';
-import { Hero, HeroService }  from './services/hero.service';
+import { Message, MessagesService }  from './services/messages.service';
 
 @Component ({
    templateUrl: 'app/chat/chat.component.html',
    styleUrls:  ['app/chat/chat.component.css'],
-   providers:  [contactsService, HeroService]
+   providers:  [contactsService, MessagesService]
 })
 
 export class appChat implements OnInit {
     icontacts: iContacts[];
-    heroes$: Observable<Hero[]>;
+    heroes$: Observable<Message[]>;
 
     private selectedId: number;
     
     constructor(
         private _contactsService: contactsService, 
         public router: Router,
-        private service: HeroService,
+        private service: MessagesService,
         private route: ActivatedRoute
     ) { }
     

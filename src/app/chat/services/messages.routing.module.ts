@@ -4,8 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { appComponent }     from '../../app.component';
 import { appChat }          from '../chat.component';
 import { appLogin }          from '../../login/login.component';
+import { HeroDetailComponent }  from './message.detail.component';
 import { PageNotFoundComponent } from '../../notfound.component';
-import { HeroDetailComponent }  from './hero.detail.component';
 
 const heroesRoutes: Routes = [
     {
@@ -18,6 +18,10 @@ const heroesRoutes: Routes = [
           },
           {
             path: '',
+            component: HeroDetailComponent
+          },
+          {
+            path: '**',
             component: PageNotFoundComponent
           }
       ]

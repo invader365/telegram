@@ -4,7 +4,7 @@ import { HttpModule }    from '@angular/http';
 
 import { appComponent }  from './app.component';
 import { appRoutingModule } from './app.routing.module';
-import { HeroesModule }   from './chat/services/heroes.module';
+import { HeroesModule }   from './chat/services/messages.module';
 
 import { appLogin }  from './login/login.component';
 import { appChat }  from './chat/chat.component';

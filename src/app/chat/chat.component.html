@@ -1,62 +1,39 @@
 <main class="uno">
     <div class="chatList">
         <div class="head">
-            <a href="#">
-                Menu
+            <a class="menu void">
+                <i class="fa fa-bars fa-1x" aria-hidden="true"></i>
             </a>
-            <h1>Telegram</h1>
-            <div class="search">
-                Search
-            </div>
-        </div>
-        <ul>
-            <li *ngFor = 'let item of icontacts'>
-                <a [routerLink]="['/Chat', item.id]">
-                    <div class="avatar">
-                        <img [src]="item.avatar" alt="">
-                    </div>
-                    <div class="name">
-                        {{item.name}}
-                    </div>
-                    <div class="lastMsg">
-                        Hi, got a minute? Just 1 frigging minute
-                    </div>
-                    <div class="hour">
-                        {{item.hour}}
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="chatMessage">
-        <div class="head">
-            <a href="#">
-                Back
+            <i _ngcontent-c0="" class="icon icon-tg-title"></i>
+            <a class="search" void>
+                <i class="fa fa-search fa-1x" aria-hidden="true"></i>
             </a>
-            <div>
-                <div class="avatar">
-                    <img src="./assets/images/avatars/one.jpg" alt="">
-                </div>
-                <div class="name">
-                    Lucy Bot
-                </div>
-                <div class="lastMsg">
-                    <p>last seen <span>??</span></p>
-                </div>
-            </div>
-            <div class="search">
-                Options
-            </div>
         </div>
-        <div class="body">
-            <router-outlet></router-outlet>
+        <div class="list">
             <ul>
-                <li *ngFor = 'let item of imessage'>
-                    <div class="message">
-                       {{item.message}}
-                    </div>
+                <li *ngFor = 'let item of icontacts'>
+                    <a [routerLink]="['/Chat', item.id]">
+                        <div class="avatar">
+                            <img [src]="item.avatar" alt="">
+                        </div>
+                        <div class="name">
+                            {{item.name}}
+                        </div>
+                        <div class="lastMsg">
+                            Hi, got a minute? Just 1 frigging minute
+                        </div>
+                        <div class="hour">
+                            {{item.hour}}
+                        </div>
+                    </a>
                 </li>
             </ul>
+            <div>
+                <a class="add void">
+                    <i class="fa fa-pencil fa-1x" aria-hidden="true"></i>
+                </a>
+            </div>
         </div>
     </div>
+    <router-outlet></router-outlet>
 </main>

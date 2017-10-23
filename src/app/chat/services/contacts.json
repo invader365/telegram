@@ -4,7 +4,9 @@
         "name": "John Bot",
         "avatar": "assets/images/avatars/one.jpg",
         "hour": "2:35 PM",
-        "lastSeen": "just now"
+        "lastSeen": "online",
+        "msg": ["Bacon ipsum dolor amet shank pork shoulder doner prosciutto", "Landjaeger pork boudin chuck cow swine jowl pancetta jerky biltong meatball", "Pork belly shankle meatloaf turducken, andouille turkey venison shank boudin. Tail capicola burgdoggen ham pork loin pancetta pastrami jowl turducken kielbasa turkey bacon fatback.", "Spare ribs kielbasa ham hock pork!!","Shank pork shoulder doner prosciutto", "Landjaeger cow swine jowl pancetta jerky biltong meatball", "Pork belly shankle meatloaf turducken, andouille turkey venison shank boudin. Tail capicola burgdoggen ham pork loin pancetta pastrami jowl turducken kielbasa turkey bacon fatback.", "Spare kielbasa ham hock pork"],
+        "postTime": ["2:25 PM", "2:26 PM", "3:15 PM"]
     },
     
     {
@@ -12,7 +14,9 @@
         "name": "Jena Zac",
         "avatar": "assets/images/avatars/two.jpg",
         "hour": "2:38 PM",
-        "lastSeen": "just now"
+        "lastSeen": "last seen just now",
+        "msg": ["Kielbasa fatback ham cupim chicken", "Turkey chuck jerky porchetta"],
+        "postTime": ["2:25 PM", "2:26 PM", "3:15 PM"]
     },
     
     {
@@ -20,7 +24,9 @@
         "name": "Press",
         "avatar": "assets/images/avatars/three.jpg",
         "hour": "1:25 PM",
-        "lastSeen": "just now"
+        "lastSeen": "last seen at 2:09 PM",
+        "msg": ["ibeye flank salami pork loin ground round. Tri-tip doner frankfurter burgdoggen picanha capicola, bacon kielbasa ground round."],
+        "postTime": ["2:25 PM", "2:26 PM", "3:15 PM"]
     },
     
     {
@@ -28,7 +34,9 @@
         "name": "DIGITAL PRESS",
         "avatar": "assets/images/avatars/four.jpg",
         "hour": "Tue",
-        "lastSeen": "just now"
+        "lastSeen": "online",
+        "msg": ["Tri-tip salami boudin doner ham. ", " Bresaola corned beef shank doner", "Cow chuck swine boudin pancetta sausage fatback burgdoggen strip steak alcatra shankle"],
+        "postTime": ["2:25 PM", "2:26 PM", "3:15 PM"]
     },
     
     {
@@ -36,7 +44,9 @@
         "name": "Charise",
         "avatar": "assets/images/avatars/five.jpg",
         "hour": "Tue",
-        "lastSeen": "just now"
+        "lastSeen": "online",
+        "msg": ["Drumstick shankle fatback, strip steak andouille jowl filet mignon swine sirloin kevin picanha ball tip.", "Ground round leberkas drumstick boudin ham hock biltong.", "Hamburger pastrami kielbasa tenderloin chuck flank beef ribs filet mignon boudin ball tip", "Shankle meatloaf ham, ham hock pork chop short ribs"],
+        "postTime": ["2:25 PM", "2:26 PM", "3:15 PM"]
     },
     
     {
@@ -44,7 +54,9 @@
         "name": "Monika",
         "avatar": "assets/images/avatars/six.jpg",
         "hour": "Mon",
-        "lastSeen": "just now"
+        "lastSeen": "last seen  at 1:59 PM",
+        "msg": ["Pastrami pork landjaeger brisket chicken."],
+        "postTime": ["2:25 PM", "2:26 PM", "3:15 PM"]
     },
     
     {
@@ -52,7 +64,9 @@
         "name": "Charles Doe",
         "avatar": "assets/images/avatars/seven.jpg",
         "hour": "Sat",
-        "lastSeen": "just now"
+        "lastSeen": "last seen just now",
+        "msg": ["Lorem Ipsum Dolor", "lorem", "Dolor Ipsum"],
+        "postTime": ["2:25 PM", "2:26 PM", "3:15 PM"]
     },
     
     {
@@ -60,7 +74,9 @@
         "name": "Sue Harmony",
         "avatar": "assets/images/avatars/eight.jpg",
         "hour": "Fry",
-        "lastSeen": "just now"
+        "lastSeen": "online",        
+        "msg": ["Kielbasa fatback ham cupim chicken", "Turkey chuck jerky porchetta"],
+        "postTime": ["2:25 PM", "2:26 PM", "3:15 PM"]
     },
     
     {
@@ -68,7 +84,9 @@
         "name": "Paul B",
         "avatar": "assets/images/avatars/nine.jpg",
         "hour": "Fry",
-        "lastSeen": "just now"
+        "lastSeen": "last seen just now",
+        "msg": ["Lorem Ipsum Dolor", "lorem", "Dolor Ipsum"],
+        "postTime": ["2:25 PM", "2:26 PM", "3:15 PM"]
     },
     
     {
@@ -76,6 +94,8 @@
         "name": "Ben Rodriguez",
         "avatar": "assets/images/avatars/ten.jpg",
         "hour": "Thu",
-        "lastSeen": "just now"
+        "lastSeen": "last seen at 2:19 PM",        
+        "msg": ["Kielbasa fatback ham cupim chicken", "Turkey chuck jerky porchetta"],
+        "postTime": ["2:25 PM", "2:26 PM", "3:15 PM"]
     }
 ]

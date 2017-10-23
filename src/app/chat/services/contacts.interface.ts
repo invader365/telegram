@@ -4,4 +4,6 @@ export interface iContacts {
     avatar: string;
     hour: string;
     lastSeen: string;
+    msg: string;
+    postTime: string;
 }

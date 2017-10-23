@@ -2038,3 +2038,4 @@ body .nano-pane{display:none}
 body .nano>.nano-content{position:static}
 body .tg_head_peer_info{text-align:center}
 body .im_history_col_wrap,body .tg_head_main_wrap{width:auto;max-width:700px;float:none;margin:0 auto}}
+html, body{height: 100%;}.void{cursor: pointer;user-select: none;}

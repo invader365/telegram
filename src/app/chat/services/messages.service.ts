@@ -3,22 +3,26 @@ import 'rxjs/add/operator/map';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 
-export class Hero {
-  constructor(public id: number, public name: string) { }
+export class Message {
+  constructor(public id: number) { }
 }
 
-const HEROES = [
-  new Hero(1, 'Mr. Nice'),
-  new Hero(2, 'Narco'),
-  new Hero(3, 'Bombasto'),
-  new Hero(4, 'Celeritas'),
-  new Hero(5, 'Magneta'),
-  new Hero(6, 'RubberMan')
+const CHAT = [
+  new Message(1),
+  new Message(2),
+  new Message(3),
+  new Message(4),
+  new Message(5),
+  new Message(6),
+  new Message(7),
+  new Message(8),
+  new Message(9),
+  new Message(10)
 ];
 
 @Injectable()
-export class HeroService {
-  getHeroes() { return Observable.of(HEROES); }
+export class MessagesService {
+  getHeroes() { return Observable.of(CHAT); }
 
   getHero(id: number | string) {
     return this.getHeroes()
